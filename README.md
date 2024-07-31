@@ -68,7 +68,7 @@ python3 draw-results.py -v resources/test-video-1.mp4 -j resources/test-video-1.
 3. Define a horizontal line at the midpoint of the video frame.
 4. Track the centroids of detected persons across frames to determine if they cross the defined line. A crossing event occurs when a person's centroid moves from one side of the line to the other.
 5. Draw bounding boxes around detected humans:
-   - In green if they have crossed the line in the current frame.
+   - In green if they have crossed the line.
    - In grey if they haven't crossed the line.
 6. Display the current count of humans who have crossed the line on the video frame.
 
